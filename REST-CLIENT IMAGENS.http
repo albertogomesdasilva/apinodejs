@@ -1,0 +1,9 @@
+### ENVIAR IMAGEM
+PUT http://localhost:8080/user/7
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="image"; filename="alberto.png"
+
+< "public/images/users"
+--boundary--

@@ -1,0 +1,64 @@
+{"date":"2025-08-16T13:22:13.731Z","email":"alberto@gmail.com","level":"warn","message":"Tentativa de login com usuário incorreto."}
+{"date":"2025-08-16T13:36:39.723Z","email":"alberto@gmail.com","level":"info","message":"Tentativa recuperar senha com e-mail incorreto."}
+{"date":"2025-08-16T13:36:52.347Z","email":"cesar@celke.com","level":"info","message":"Tentativa recuperar senha com e-mail incorreto."}
+{"date":"2025-08-16T21:48:08.877Z","email":"cesar70@celke.com.br","level":"info","message":"Tentativa recuperar senha com e-mail incorreto."}
+{"date":"2025-08-16T21:48:46.893Z","email":"cesar7@celke.com.br","level":"info","message":"Enviado e-mail com instruções para recuperar a senha."}
+{"date":"2025-08-16T21:50:20.631Z","email":"cesar7@celke.com.br","level":"info","message":"Enviado e-mail com instruções para recuperar a senha."}
+{"date":"2025-08-16T22:20:12.315Z","level":"info","message":"Validar chave recuperar senha, chave válida."}
+{"date":"2025-08-16T22:20:21.579Z","level":"info","message":"Validar chave recuperar senha, chave inválida."}
+{"date":"2025-08-16T22:20:37.351Z","level":"info","message":"Validar chave recuperar senha, chave inválida."}
+{"date":"2025-08-16T22:20:41.230Z","level":"info","message":"Validar chave recuperar senha, chave válida."}
+{"date":"2025-08-16T22:27:35.146Z","level":"warn","message":"E-mail recuperar senha não enviado. Erro editar usuário no banco de dados."}
+{"date":"2025-08-16T22:27:58.226Z","level":"warn","message":"E-mail recuperar senha não enviado. Erro editar usuário no banco de dados."}
+{"date":"2025-08-16T22:28:03.841Z","level":"warn","message":"E-mail recuperar senha não enviado. Erro editar usuário no banco de dados."}
+{"date":"2025-08-16T22:29:39.528Z","level":"warn","message":"Rota acessada: POST http://localhost:8080/validate-recover-password e não enviou a chave!"}
+{"date":"2025-08-16T22:36:30.107Z","level":"warn","message":"Rota acessada: POST http://localhost:8080/validate-recover-password e não enviou a chave!"}
+{"date":"2025-08-16T22:36:34.630Z","level":"warn","message":"Rota acessada: POST http://localhost:8080/validate-recover-password e não enviou a chave!"}
+{"date":"2025-08-16T22:36:34.641Z","level":"info","message":"Validar chave recuperar senha, chave válida."}
+{"date":"2025-08-16T22:46:59.359Z","email":"alberto@gmail.com","level":"warn","message":"Tentativa de login com usuário incorreto."}
+{"date":"2025-08-16T22:47:00.512Z","email":"alberto@gmail.com","level":"warn","message":"Tentativa de login com usuário incorreto."}
+{"date":"2025-08-16T22:47:11.991Z","email":"cesar7@gmail.com","level":"warn","message":"Tentativa de login com usuário incorreto."}
+{"date":"2025-08-16T22:47:18.261Z","email":"cesar7@cesar.com","level":"warn","message":"Tentativa de login com usuário incorreto."}
+{"date":"2025-08-16T22:47:31.914Z","email":"cesar7@cesar.com.br","level":"warn","message":"Tentativa de login com usuário incorreto."}
+{"date":"2025-08-16T22:47:39.515Z","email":"cesar7@celke.com.br","level":"info","message":"Login realizado com sucesso."}
+{"date":"2025-08-16T22:47:45.264Z","email":"cesar7@celke.com.br","level":"warn","message":"Tentativa de login com senha incorreta."}
+{"date":"2025-08-16T22:48:05.431Z","email":"cesar7@celke.com.br","level":"info","message":"Enviado e-mail com instruções para recuperar a senha."}
+{"date":"2025-08-16T22:48:45.145Z","level":"warn","message":"Rota acessada: POST http://localhost:8080/validate-recover-password e não enviou a chave!"}
+{"date":"2025-08-16T22:48:45.151Z","level":"info","message":"Validar chave recuperar senha, chave válida."}
+{"date":"2025-08-16T22:49:33.780Z","level":"warn","message":"Rota acessada: POST http://localhost:8080/validate-recover-password e não enviou a chave!"}
+{"date":"2025-08-16T22:49:33.784Z","level":"info","message":"Validar chave recuperar senha, chave válida."}
+{"date":"2025-08-16T22:50:12.539Z","level":"info","message":"Senha editada com sucesso."}
+{"date":"2025-08-16T22:50:25.563Z","email":"cesar7@celke.com.br","level":"warn","message":"Tentativa de login com senha incorreta."}
+{"date":"2025-08-16T22:50:30.391Z","email":"cesar7@celke.com.br","level":"info","message":"Login realizado com sucesso."}
+{"date":"2025-08-16T22:55:05.286Z","level":"warn","message":"Rota acessada: POST http://localhost:8080/validate-recover-password e não enviou a chave!"}
+{"date":"2025-08-16T22:55:05.298Z","level":"info","message":"Validar chave recuperar senha, chave inválida."}
+{"date":"2025-08-16T23:06:39.781Z","id":7,"level":"info","message":"Perfil visualizado.","userId":7}
+{"date":"2025-08-16T23:08:04.923Z","id":7,"level":"info","message":"Perfil visualizado.","userId":7}
+{"date":"2025-08-17T14:58:32.236Z","id":7,"level":"info","message":"Perfil visualizado.","userId":7}
+{"date":"2025-08-17T15:01:25.097Z","id":7,"level":"info","message":"Perfil visualizado.","userId":7}
+{"date":"2025-08-17T15:01:35.685Z","id":7,"image":"1755346936794873092153.png","level":"info","message":"Excluida a imagem do usuário.","userId":7}
+{"date":"2025-08-17T15:01:35.692Z","image":"1755442895668344375766.jpg","level":"info","message":"Imagem do perfil editado com sucesso.","userId":7}
+{"date":"2025-08-17T15:01:49.212Z","id":7,"level":"info","message":"Perfil visualizado.","userId":7}
+{"date":"2025-08-17T15:02:14.962Z","id":7,"image":"1755442895668344375766.jpg","level":"info","message":"Excluida a imagem do usuário.","userId":7}
+{"date":"2025-08-17T15:02:14.967Z","image":"1755442934953384879587.pdf","level":"info","message":"Imagem do perfil editado com sucesso.","userId":7}
+{"date":"2025-08-17T15:02:20.732Z","id":7,"level":"info","message":"Perfil visualizado.","userId":7}
+{"date":"2025-08-17T15:11:00.457Z","id":7,"level":"info","message":"Senha do perfil editado com sucesso.","userId":7}
+{"date":"2025-08-17T15:11:32.599Z","email":"cesar7@celke.com.br","level":"warn","message":"Tentativa de login com senha incorreta."}
+{"date":"2025-08-17T15:11:39.784Z","email":"cesar7@celke.com.br","level":"info","message":"Login realizado com sucesso."}
+{"date":"2025-08-17T15:12:16.856Z","id":"31","level":"info","message":"Usuário visualizado.","userId":7}
+{"date":"2025-08-17T15:12:35.007Z","id":"31","level":"info","message":"Usuário visualizado.","userId":7}
+{"date":"2025-08-17T15:12:41.937Z","id":"7","level":"info","message":"Usuário visualizado.","userId":7}
+{"date":"2025-08-17T20:14:09.157Z","email":"cesar70@celke.com.br","level":"info","message":"Tentativa recuperar senha com e-mail incorreto."}
+{"date":"2025-08-17T20:14:16.425Z","email":"cesar7@celke.com.br","level":"info","message":"Enviado e-mail com instruções para recuperar a senha."}
+{"date":"2025-08-17T20:40:56.523Z","email":"cesar7@celke.com.br","level":"info","message":"Enviado e-mail com instruções para recuperar a senha."}
+{"date":"2025-08-17T20:45:46.870Z","level":"info","message":"Validar token recuperar senha, chave inválido."}
+{"date":"2025-08-17T20:46:31.373Z","level":"info","message":"Validar token recuperar senha, token válido."}
+{"date":"2025-08-17T20:46:44.797Z","level":"info","message":"Validar token recuperar senha, chave inválido."}
+{"date":"2025-08-17T20:54:02.198Z","level":"info","message":"Token recuperar senha inválido."}
+{"date":"2025-08-17T20:54:26.672Z","level":"info","message":"Token recuperar senha inválido."}
+{"date":"2025-08-17T20:55:59.777Z","level":"info","message":"Token recuperar senha inválido."}
+{"date":"2025-08-17T20:56:20.860Z","level":"info","message":"Token recuperar senha inválido."}
+{"date":"2025-08-17T20:57:05.693Z","level":"info","message":"Senha editada com sucesso."}
+{"date":"2025-08-17T21:00:16.824Z","email":"cesar7@celke.com.br","level":"info","message":"Login realizado com sucesso."}
+{"date":"2025-08-17T21:01:55.677Z","level":"info","message":"Listar usuários.","userId":7}
+{"date":"2025-08-17T21:02:10.838Z","level":"info","message":"Listar usuários.","userId":7}

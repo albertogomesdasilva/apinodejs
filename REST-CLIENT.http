@@ -1,0 +1,216 @@
+### rota raiz
+GET http://localhost:8080/
+
+### rota com parâmetro
+GET http://localhost:8080/users/7
+
+###
+GET http://localhost:8080/users/7?sit=2
+
+###
+
+### Cadastrar usuário
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "name": "Alberto Silva",
+    "email": "albertosilva@gmail.com",
+    "password": "123456"
+}
+
+
+### Atualizar usuário
+PUT http://localhost:8080/user/
+Content-Type: application/json
+
+{
+    "id": "1",
+    "name": "Alberto Gomes da Silva",
+    "email": "albertog@gmail.com",
+    "password": "123456",
+    "situationId": "1"
+}
+
+### Deletar usuário
+DELETE http://localhost:8080/users/2"
+Content-Type: application/json
+
+{
+    "name": "Alberto Gomes da Silva",
+    "email": "alberto@gmail.com",
+    "password": "123456"
+}
+
+### Situations
+POST http://localhost:8080/situations
+Content-Type: application/json
+
+{
+    "nameSituation": "Exclusivo"
+}
+###
+POST http://localhost:8080/situations
+Content-Type: application/json
+
+{
+    "nameSituation": "Inativo"
+}
+###
+POST http://localhost:8080/situations
+Content-Type: application/json
+
+{
+    "nameSituation": "Spam"
+}
+###
+POST http://localhost:8080/situations
+Content-Type: application/json
+
+{
+    "nameSituation": "Aguardando Confirmação"
+}
+
+### Cadastrar Usuário
+POST http://localhost:8080/users
+Content-Type: application/json
+
+    {
+        "name":"Pit Bull",
+        "email":"pit@live.com",
+        "password":"123456",
+        "situationId":1
+    }
+
+### LISTAR TODOS OS USUÁRIOS
+GET http://localhost:8080/users
+Content-Type: application/json
+
+### Listar Usuários ESPECÍFICO
+GET http://localhost:8080/users/1
+Content-Type: application/json
+
+### Listar Usuários com paginação
+GET http://localhost:8080/userspage
+Content-Type: application/json
+
+### Listar Usuários com paginação indicando a página a ser exibida 1 item por página
+GET http://localhost:8080/userspage
+Content-Type: application/json
+
+### Editar usuário
+PUT http://localhost:8080/user/
+Content-Type: application/json
+
+{
+    "id":1,
+    "name":"Alberto Gomes da Silva",
+    "email":"albertogomesdasilva@gmail.com",
+    "situationId":4
+}
+
+
+
+### Listar Situações
+GET http://localhost:8080/situations
+Content-Type: application/json
+
+### Listar Situações
+GET http://localhost:8080/situationspage
+Content-Type: application/json
+
+### Listar Situações
+GET http://localhost:8080/situationspage?page=2
+Content-Type: application/json
+
+
+### Listar um usuário específico pela ID
+GET http://localhost:8080/users/53
+
+### Buscar e Listar uma Situação específica pela ID
+GET http://localhost:8080/situations
+Content-Type: application/json
+
+### Editar Situação
+PUT http://localhost:8080/situation/
+Content-Type: application/json
+Authorization: Bearer
+
+{
+    "id":5,
+    "nameSituation":"Testando"
+}
+
+### Apagar usuário
+DELETE http://localhost:8080/user/7
+Content-Type: application/json
+
+### Apagar Situação
+DELETE http://localhost:8080/situation/4
+Content-Type: application/json
+
+### LISTAR TODOS OS USUÁRIOS
+GET http://localhost:8080/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwibmFtZSI6IkFsYmVydG8gR29tZXMgZGEgU2lsdmEiLCJpYXQiOjE3NTUxNzA3MTIsImV4cCI6MTc1NTE3MjUxMn0.7nIYgm0vs8H4KaC-IAjxngtxjKvcUFo3b3n5XmNyE3M
+
+{
+    "name":"albertogomesdasilva@gmail.com",
+    "password":"123456"
+}
+
+### TESTE DA ROTA LOGIN -> PEGAR TOKEN
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "email":"albertogomesdasilva@gmail.com",
+    "password":"123456"
+}
+
+### POST LOGIN
+POST http://localhost:8080/login
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsIm5hbWUiOiJBbGJlcnRvIEdvbWVzIGRhIFNpbHZhIiwiaWF0IjoxNzU1MTczNDg3LCJleHAiOjE3NTUxNzUyODd9.r2D35oJ-x2-TSWG9c5bHEqSAm0e8wp2mvEyOI4RMM9w"
+
+{
+  "email":"albertogomesdasilva@gmail.com",
+  "password":"123456"
+}
+
+
+### GET USERS - ROTA PROTEGIDA QUE PRECISA DE TOKEN VÁLIDO
+GET http://localhost:8080/users/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsIm5hbWUiOiJBbGJlcnRvIEdvbWVzIGRhIFNpbHZhIiwiaWF0IjoxNzU1MTczNTY0LCJleHAiOjE3NTUxNzUzNjR9.EEkirKfJLH78K81CP9iDgguq5BNCp77pz2yGN8ux_WI
+
+
+### Cadastrar usuário
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "name": "Alberto Silva",
+    "email": "albertosilva@gmail.com",
+    "password": "123456"
+}
+
+### Cadastrar usuário
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "name": "Alberto Gomes da Silva",
+    "email": "albertogomesdasilva1@gmail.com",
+    "password": "123456",
+    "situationId": 1
+}
+
+
+### TESTE DA ROTA LOGIN -> PEGAR TOKEN
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "email":"albertogomesdasilva@gmail.com",
+    "password":"123456"
+}
