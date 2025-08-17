@@ -124,3 +124,5 @@ Criar a coluna imagem do recover-password na tabela users
 
 Enviar email com nodemailer
 ### npm install --save nodemailer"# apinodejs" 
+"# apinodejs" 
+"# apinodejs" 
